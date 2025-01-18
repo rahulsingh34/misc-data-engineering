@@ -34,8 +34,8 @@ SELECT
 	is_active,
 	MIN(year) AS start_year,
 	MAX(year) AS end_year,
-	1973 AS year
-	-- Latest year I backfilled
+	1974 AS year
+	-- Latest year I backfilled - 1 (so I can incremental load the next year)
 FROM
 	streak
 GROUP BY
