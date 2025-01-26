@@ -3,5 +3,5 @@ CREATE TABLE user_devices_cumulated (
 	browser_type TEXT,
 	device_activity_datelist DATE[],
 	date DATE,
-	PRIMARY KEY (user_id, date)
+	PRIMARY KEY (user_id, browser_type, date)
 )
