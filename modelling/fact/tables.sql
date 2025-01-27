@@ -13,3 +13,11 @@ CREATE TABLE hosts_cumulated (
 	date DATE,
 	PRIMARY KEY (host, user_id, date)
 )
+
+CREATE TABLE host_activity_reduced (
+	month_start DATE,
+	host TEXT,
+	hit_array REAL[],
+	unique_visitors REAL[],
+	PRIMARY KEY (month_start, host)
+)
