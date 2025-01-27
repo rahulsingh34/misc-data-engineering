@@ -5,3 +5,11 @@ CREATE TABLE user_devices_cumulated (
 	date DATE,
 	PRIMARY KEY (user_id, browser_type, date)
 )
+
+CREATE TABLE hosts_cumulated (
+	host TEXT,
+	user_id NUMERIC,
+	host_activity_datelist DATE[],
+	date DATE,
+	PRIMARY KEY (host, user_id, date)
+)
