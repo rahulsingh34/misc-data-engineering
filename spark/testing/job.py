@@ -16,7 +16,7 @@ query = """
             'nickname', nickname,
             'city', city,
             'arena', arena,
-            'year_founded', yearfounded
+            'year_founded', CAST(yearfounded AS STRING)
         ) AS properties
     FROM
         teams_deduped

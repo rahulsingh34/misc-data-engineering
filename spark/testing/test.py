@@ -34,7 +34,7 @@ def test_vertex_generation(spark):
                 'nickname': 'Warriors',
                 'city': 'San Francisco',
                 'arena': 'Chase Center',
-                'year_founded': 1900
+                'year_founded': '1900'
             }
         )
     ]
