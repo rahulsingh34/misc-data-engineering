@@ -1,5 +1,5 @@
 from chispa.dataframe_comparer import *
-from job import do_team_vertex_transformation
+from spark.testing.job import do_team_vertex_transformation
 from collections import namedtuple
 
 TeamVertex = namedtuple(
