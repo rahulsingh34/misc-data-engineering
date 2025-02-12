@@ -1,3 +1,3 @@
-- Convert 2 queries from Weeks 1-2 from PostgreSQL to SparkSQL
-- Create new PySpark jobs in `src/jobs` for these queries
-- Create tests in `src/tests` folder with fake input and expected output data
+- Convert a query from PostgreSQL to SparkSQL
+- Create new a PySpark job in `src/jobs` for it
+- Create a test in `src/tests` folder with fake input and expected output data
