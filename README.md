@@ -2,8 +2,9 @@
 
 - Modelling
     - Dimensions
-    - Graph
     - Fact
+    - Graph
+    - Analytical Patterns
 - Processing
     - Spark
-- Analytical Patterns
+
